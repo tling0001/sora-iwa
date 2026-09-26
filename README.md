@@ -16,4 +16,4 @@
 *   Click "fetch" and "install"
 
 deno run -A npm:wbn/wbn --dir sora-iwa/src -o unsigned.wbn
-deno run -A npm:wbn-sign/wbn-sign -i unsigned.wbn -k private_key.pem -o sora-overdrive.swbn
+deno run -A npm:wbn-sign/wbn-sign -i unsigned.wbn -k sora_private_key.pem -o sora-overdrive.swbn
